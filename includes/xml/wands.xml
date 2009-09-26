@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gallery
+base = ""
+background = "#FFFFFF"
+banner = "#F0F0F0"
+text = "#000000"
+link = "#0000FF"
+alink = "#FF0000"
+vlink = "#800080"
+date = "05/08/2009">
+	<sitename>Wizard Within Wands</sitename>
+	<photographer>Wizard Within Wands</photographer>
+	<contactinfo>info@wizardwithinwands.com</contactinfo>
+	<email>info@wizardwithinwands.com</email>
+	<security><![CDATA[]]> </security>
+
+<banner font = "Arial" fontsize = "3" color =  "#F0F0F0"> </banner>
+<thumbnail base ="includes/images/" font = "Arial" fontsize = "4" color = "#F0F0F0" border = "0" rows = "3" col = "5"> </thumbnail> 
+<large base ="includes/images/" font = "Arial" fontsize = "3" color = "#F0F0F0" border = "0"> </large>
+<photos id = "images">
+
+<photo
+path = "wand1a.jpg"
+width = "400"
+height = "267"
+thumbpath = "wand1a.jpg"
+thumbwidth = "80"
+thumbheight = "53"
+name = "Micoimago"
+length = "Cherry / 12 inches"
+description = "Fresh wand embellished with glitter above the handle and magical metallic etchings on the base. Pure magic. Excellent for warding off unwanted pests. Perfect for the colorful person in your life as the sparkles have been known to incite magical powers."
+cost = "$35.00">
+</photo>
+
+
+<photo
+path = "wand1b.jpg"
+width = "400"
+height = "267"
+thumbpath = "wand1b.jpg"
+thumbwidth = "80"
+thumbheight = "53"
+name = "Micoimago"
+length = "Cherry / 12 inches"
+description = "">
+</photo>
+
+<photo
+path = "wand1c.jpg"
+width = "400"
+height = "267"
+thumbpath = "wand1c.jpg"
+thumbwidth = "80"
+thumbheight = "53"
+name = "Micoimago"
+length = "Cherry / 12 inches"
+description = "">
+</photo>
+
+</photos>
+
+
+<photos2 id = "images">
+
+<photo
+path = "wand2a.jpg"
+width = "400"
+height = "267"
+thumbpath = "wand2a.jpg"
+thumbwidth = "80"
+thumbheight = "53"
+name = "Tripudio"
+length = "Cherry / 12 inches"
+description = "This wand is high energy, and those who have twirled it about report an unexpected desire to jump! An unusually powerful wand not for the timid. Ask and it will do."
+cost = "$35.00">
+</photo>
+
+<photo
+path = "wand2b.jpg"
+width = "400"
+height = "267"
+thumbpath = "wand2b.jpg"
+thumbwidth = "80"
+thumbheight = "53"
+name = "Tripudio"
+length = "Cherry / 12 inches">
+</photo>
+
+<photo
+path = "wand2c.jpg"
+width = "400"
+height = "267"
+thumbpath = "wand2c.jpg"
+thumbwidth = "80"
+thumbheight = "53"
+name = "Tripudio"
+length = "Cherry / 12 inches">
+</photo>
+
+</photos2>
+
+
+<photos3 id = "images">
+
+<photo
+path = "wand3a.jpg"
+width = "400"
+height = "267"
+thumbpath = "wand3a.jpg"
+thumbwidth = "80"
+thumbheight = "53"
+name = "Lamiadra"
+length = "Walnut / 12 inches"
+description = "Our most popular wand has become an instant classic among seasoned wand lovers. With sleek lines and a native appearance, this wand may be the thread connecting ancient and modern magic. See for yourself why its distinctive magical qualities created a dedicated following. The power comes from within."
+cost = "$35.00">
+</photo>
+
+<photo
+path = "wand3b.jpg"
+width = "400"
+height = "267"
+thumbpath = "wand3b.jpg"
+thumbwidth = "80"
+thumbheight = "53"
+name = "Lamiadra"
+length = "Walnut / 12 inches">
+</photo>
+
+<photo
+path = "wand3c.jpg"
+width = "400"
+height = "267"
+thumbpath = "wand3c.jpg"
+thumbwidth = "80"
+thumbheight = "53"
+name = "Lamiadra"
+length = "Walnut / 12 inches">
+</photo>
+
+</photos3>
+
+
+<photos4 id = "images">
+
+<photo
+path = "certificate.gif"
+width = "400"
+height = "267"
+thumbpath = "certificate.gif"
+thumbwidth = "80"
+thumbheight = "53"
+name = "Included With Every Wand"
+name2 = "Certificate of Authenticity"
+name3 = "Dark blue, crushed velvet bag"
+name4 = "A spell particularly suited for your wand"
+length = ""
+description = "Every Wizard Within Wand comes with a">
+</photo>
+
+<photo
+path = "wand_bag.jpg"
+width = "400"
+height = "267"
+thumbpath = "wand_bag.jpg"
+thumbwidth = "80"
+thumbheight = "53"
+name = "Wand Bag"
+length = "">
+</photo>
+
+<photo
+path = "spell.gif"
+width = "400"
+height = "267"
+thumbpath = "spell.gif"
+thumbwidth = "80"
+thumbheight = "53"
+name = "Spell"
+length = "">
+</photo>
+
+</photos4>
+
+
+<photos5 id = "images">
+
+<photo
+path = "wand5a.jpg"
+width = "400"
+height = "267"
+thumbpath = "wand5a.jpg"
+thumbwidth = "80"
+thumbheight = "53"
+name = "Magnanimous"
+name2 = ""
+name3 = ""
+name4 = ""
+length = "12 inches / Cherry"
+description = "The Magnanimous elevates your mind. Derived from the Latin roots magna meaning great, and anima meaning soul, it refers to the virtue of having a great mind and heart. The Magnanimous contains a colorful stone in the handle of each wand."
+note = "Cast offs do not come with a certificate of authenticity. Each cast off does come with a bag and a spell."
+flaw = "It is near the embellishment that you will find the flaws on the Magnanimous. It might be slightly off center. There might be a small gap between the wood and the stone. Or some glue might be visible. Rest assurred that the wand still retains all its power. We just couldn't put these wands on the top shelf and quality control inspector #7 allocated them to the cast offs bin."
+cost = "$20.00">
+</photo>
+
+
+<photo
+path = "wand5b.jpg"
+width = "400"
+height = "267"
+thumbpath = "wand5b.jpg"
+thumbwidth = "80"
+thumbheight = "53"
+name = ""
+length = "">
+</photo>
+
+<photo
+path = "wand5c.jpg"
+width = "400"
+height = "267"
+thumbpath = "wand5c.jpg"
+thumbwidth = "80"
+thumbheight = "53"
+name = ""
+length = "">
+</photo>
+
+</photos5>
+
+</gallery>

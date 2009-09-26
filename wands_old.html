@@ -1,0 +1,187 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:spry="http://ns.adobe.com/spry">
+
+    <head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>Wizard Within Wands: Wands</title>
+
+        <link rel="stylesheet" href="includes/css/main.css" type="text/css" media="all" />
+        <script type="text/javascript" src="includes/js/Spry_1_6_1_022408/includes/xpath.js"></script>
+        <script type="text/javascript" src="includes/js/Spry_1_6_1_022408/includes/SpryData.js"></script>
+        <script type="text/javascript" src="includes/js/Spry_1_6_1_022408/includes/SpryEffects.js"></script>
+        <script type="text/javascript">
+            var dsGallery  = new Spry.Data.XMLDataSet("includes/xml/wands_bak.xml", "/gallery/photos/photo");
+            var dsData     = new Spry.Data.XMLDataSet("includes/xml/wands_bak.xml", "/gallery");
+            var dsGallery2 = new Spry.Data.XMLDataSet("includes/xml/wands.xml", "/gallery/photos2/photo");
+            var dsData2    = new Spry.Data.XMLDataSet("includes/xml/wands.xml", "/gallery");
+            var dsGallery3 = new Spry.Data.XMLDataSet("includes/xml/wands.xml", "/gallery/photos3/photo");
+            var dsData3    = new Spry.Data.XMLDataSet("includes/xml/wands.xml", "/gallery");
+            var dsGallery4 = new Spry.Data.XMLDataSet("includes/xml/wands.xml", "/gallery/photos4/photo");
+            var dsData4    = new Spry.Data.XMLDataSet("includes/xml/wands.xml", "/gallery");
+        </script> 
+    
+        <style type="text/css">
+            <!—
+            #thumbContainerOld {
+                position:absolute;
+                left:23px;
+                top:127px;
+                width:437px;
+                height:430px;
+                z-index:1;
+            }
+            #thumbContainer {
+                z-index:1;
+	        border: solid 1px #000000;
+	        width: 250px;
+	        height: 100px;
+            }
+            #detailContainer {
+                position:absolute;
+                left:450px;
+                top:305px;
+                width:400px;
+                height:267px;
+	        border: solid #a85932 1px;
+                z-index:2;
+            }
+            #detailContainer2 {
+                position:absolute;
+                left:450px;
+                top:645px;
+                width:400px;
+                height:267px;
+		border: solid #a85932 1px;
+                z-index:2;
+            }
+		#detailContainer3 {
+                position:absolute;
+                left:450px;
+                top:975px;
+                width:400px;
+                height:267px;
+		border: solid #a85932 1px;
+                z-index:2;
+            }
+		#detailContainer4 {
+                position:absolute;
+                left:450px;
+                top:1350px;
+                width:400px;
+                height:267px;
+		border: solid #a85932 1px;
+                z-index:2;
+            }
+
+            img.thumbsOld {
+                float:left;
+                height:60px;
+                width:60px;
+                margin-right: 2px;
+                margin-bottom: 2px;
+                border: solid #a85932 1px;
+            }
+            img.thumbs {
+                height:60px;
+                width:60px;
+                border: solid #a85932 1px;
+		margin-right: 10px;
+                margin-bottom: 2px;
+            }
+            -->
+        </style>
+    </head>
+
+    <body class="products">
+        <noscript>
+            <h1>This page requires JavaScript. Please enable JavaScript in your browser and reload this page.</h1>
+        </noscript>
+
+        <div class="storelinks">
+		    <ul>
+		        <li class="last">
+                    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                        <input type="hidden" name="cmd" value="_s-xclick">
+                        <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+">
+                        <input type="image" 
+                               src="http://www.wizardwithinwands.com/images/viewcart.gif" 
+                               border="0" 
+                               name="submit" 
+                               alt="PayPal - The safer, easier way to pay online!">
+                        <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>
+                </li>
+		    </ul>
+        </div><!-- /storelinks -->
+
+        <div id="content">
+	    <div class="page">
+		<div class="header">
+    		    <h1>
+			<h1><a name="top"><img src="includes/images/www_logo.gif" alt="Wizard Within Wands<sup>tm</sup> - 
+			Hand Made Wands" width="600" height="41" /></a></h1>
+
+                        <img src="includes/images/divider.gif">
+			
+			            <ul class="nav">
+				     <li id="home"><a href="index.html">Home</a></li>
+				     <li id="products"><a href="wands.html">Wands</a></li>
+		                     <li id="about"><a href="about_us.html">About Us</a></li>
+	     	                     <li id="spells"><a href="spells.html">Spells</a></li>
+			             <li id="faq"><a href="faq.html">FAQ</a></li>
+			             <li id="castoffs"><a href="cast_offs.html">Cast Offs</a></li>
+		            </ul>
+	            </div><!-- /header -->
+                
+                <div class="main">
+                    <h2>Wands</h2>
+                    <h3>
+                        <div id="thumbContainer" spry:region="dsGallery dsData"> 
+                            {@name}
+                            <br />
+                            {@length}
+			    <br />
+                        </div>
+                    </h3>
+
+                                <div id="thumbContainer" spry:region="dsGallery dsData"> 
+                                    <img src="{dsData::thumbnail/@base}{@thumbpath}" 
+                                         spry:repeat="dsGallery" 
+                                         spry:setrow="dsGallery" 
+                                         class="thumbs" 
+                                         onclick="dsGallery.setCurrentRow('{ds_RowID}');" />
+                                </div>
+                                <br />&nbsp; <br /><br />&nbsp; <br />
+                            
+                                <div id="detailContainer" spry:detailregion="dsGallery dsData">  
+                                    <img src="{dsData::large/@base}{@path}"/><br />
+                                </div>
+
+		                <!--form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                                     <input type="hidden" name="cmd" value="_s-xclick">
+                                     <input type="hidden" name="hosted_button_id" value="5189928">
+                                     <input type="image" 
+                                            src="includes/images/addtocart.jpg"
+                                            border="0" 
+                                            name="submit" 
+                                            alt="PayPal - The safer, easier way to pay online!"
+					    width="50"
+					    height="20"-->
+                                     <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                                </form>
+                                <br />&nbsp; <br /> &nbsp; <br />
+                            </p>
+                    <br /><br />&nbsp; <br />&nbsp; <br />&nbsp; <br /><br />
+
+                </div><!-- /main -->
+            </div><!-- /page -->
+        </div><!-- /content -->
+
+        <p class="footer">
+            &copy; 2009 Wizard Within Wands<sup>tm</sup> All rights reserved.  <br />
+            Email: <a href="mailto:info@wizardwithinwands.com">info@wizardwithinwands.com</a><br />
+        </p><!-- /footer -->
+    </body>
+</html>

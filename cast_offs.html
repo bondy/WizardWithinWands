@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:spry="http://ns.adobe.com/spry">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Wizard Within Wands sells blemished, one-offs, and discontinued wands at a discounted price.">
+    <link rel="shortcut icon" href="favicon.ico">  
+    <title>Wizard Within Wands: Wands</title>
+
+    <link rel="stylesheet" href="includes/css/main.css" type="text/css" media="all" />
+    <script type="text/javascript" src="includes/js/Spry_1_6_1_022408/includes/xpath.js"></script>
+    <script type="text/javascript" src="includes/js/Spry_1_6_1_022408/includes/SpryData.js"></script>
+    <script type="text/javascript" src="includes/js/Spry_1_6_1_022408/includes/SpryEffects.js"></script>
+    <script type="text/javascript">
+        var dsGallery5  = new Spry.Data.XMLDataSet("includes/xml/wands.xml", "/gallery/photos5/photo");
+        var dsData5     = new Spry.Data.XMLDataSet("includes/xml/wands.xml", "/gallery");
+    </script> 
+    
+    <style type="text/css">
+        <!—
+        #t { }
+        #thumbContainer {
+            width:250px;
+            float:left;
+        }
+        #detailContainer {
+            width:400px;
+            height:267px;
+            border:solid #a85932 1px;
+            z-index:2;
+            float: right;
+        }
+        img.thumbs {
+            height:45px;
+            width:67px;
+            border:solid #a85932 1px;
+            margin-right: 10px;
+            margin-bottom: 2px;
+            margin-top: 10px;
+        }
+        -->
+    </style>
+</head>
+
+<body class="castoffs">
+    <noscript>
+        <h1>This page requires JavaScript. Please enable JavaScript in your browser and reload this page.</h1>
+    </noscript>
+
+    <div class="cart">
+        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+            <ul>
+                <li>
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+">
+                    <input type="image" 
+                           src="http://www.wizardwithinwands.com/includes/images/viewcart.gif" 
+                           border="0" 
+                           name="submit" 
+                           alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" 
+                         border="0" 
+                         src="https://www.paypal.com/en_US/i/scr/pixel.gif" 
+                         width="1" 
+                         height="1">
+                </li>
+            </ul>
+        </form>
+    </div><!-- /cart -->
+
+    <div id="content">
+        <div class="page">
+            <div class="header">
+                <h1>
+                    <a name="top"><img src="includes/images/www_logo.gif" alt="Wizard Within Wands<sup>tm</sup> - Hand Made Wands" width="600" height="41" /></a>
+                </h1>
+
+                <ul class="nav">
+                    <li id="home"><a href="index.html">Home</a></li>
+                    <li id="wands"><a href="wands.html">Wands</a></li>
+                    <li id="about"><a href="about_us.html">About Us</a></li>
+                    <li id="spells"><a href="spells.html">Spells</a></li>
+                    <li id="faq"><a href="faq.html">FAQ</a></li>
+                    <li id="castoffs"><a href="cast_offs.html">Cast Offs</a></li>
+                </ul>
+            </div><!-- /header -->
+            
+            <div class="main">
+                <h2>Cast Offs</h2>
+                <p>
+                Cast offs are wands that have been discontinued, are not top quality, or "one-offs" (i.e., we only made one or a couple wands of this type).
+                Each wand has a note regarding the reason why it was cast off. We don't always have wands here and this selection frequently 
+                changes so check back often.
+                </p>
+
+                <div id="thumbContainer" spry:region="dsGallery5 dsData5"> 
+                    <div id="wandname">{@name}</div>
+                    <div id="wandlength">{@length} &nbsp; {@cost}</div>
+                    {@description}
+
+                    <img src="{dsData5::thumbnail/@base}{@thumbpath}" 
+                         spry:repeat="dsGallery5" 
+                         spry:setrow="dsGallery5" 
+                         class="thumbs" 
+                         onclick="dsGallery5.setCurrentRow('{ds_RowID}');" />
+                    <br />
+                    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                        <input type="hidden" name="cmd" value="_s-xclick">
+                        <input type="hidden" name="hosted_button_id" value="7364309">
+                        <input type="image" src="http://www.wizardwithinwands.com/includes/images/addtocart.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                        <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>
+
+                    <p>{@flaw}</p>
+                    <div id="wandlength">*{@note}</div>
+                </div> <!-- end thumb -->
+                            
+                <div id="detailContainer" spry:detailregion="dsGallery5 dsData5">  
+                    <img src="{dsData5::large/@base}{@path}"/>
+                </div>
+
+                <p style="clear:both; margin-bottom: 5em;" />
+
+            </div><!-- /main -->
+        </div><!-- /page -->
+    </div><!-- /content -->
+
+    <p class="footer">
+        &copy; 2009 Wizard Within Wands<sup>tm</sup> All rights reserved.  
+        <br />
+        Email: <a href="mailto:info@wizardwithinwands.com">info@wizardwithinwands.com</a>
+        <br />         
+        Major Credit Cards Accepted
+        <br />
+        <img src="includes/images/creditcards.gif" />
+    </p><!-- /footer -->
+</body>
+</html>
+
